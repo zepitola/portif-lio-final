@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/images.jfif" alt="avatar do ANDREI SANTOS" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">ANDREI SANTOS</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante da Escola Monsenhor Ignácio Gioia, e São Luiz do Paraitinga. Durante as aulas de programação desenvolvi alguns projetos, espero que gostem!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 (monalisa) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/monalisa.PNG" class="card-img-top" alt="Imagem do projeto da Monalisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Monalisa</h5>
+                        <p class="card-text">Este projeto é uma imagem interativa que foi inspirada no quadro da Monalisa. Os olhos da figura foram programados para seguir o cursor do mouse.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 (quente frio)-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/quente frio.PNG" class="card-img-top" alt="Imagem do projeto quente frio">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente Frio</h5>
+                        <p class="card-text">Este projeto é um jogo interativo baseado na brincadeira "quente-frio". No projeto, você deve ser capaz de encontrar a bolinha escondida.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 (corrida) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/corrida.PNG" class="card-img-top" alt="Imagem do projeto de corrida">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo de corrida</h5>
+                        <p class="card-text">Neste projeto foi criado um jogo de corrida. Para mover os personagens, é preciso apertar as teclas repetidamente.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 - monalisa -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é uma imagem interativa que foi inspirada no quadro da Monalisa. Os olhos da figura foram programados para seguir o cursor do mouse.</p>
+                    <img src="img/monalisa.PNG" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto da Monalisa">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 - quente frio -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo interativo baseado na brincadeira "quente-frio". No projeto, você deve ser capaz de encontrar a bolinha escondida.
+                    </p>
+                    <img src="img/quente frio.PNG" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto quente frio">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 - corrida-->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Neste projeto foi criado um jogo de corrida. Para mover os personagens, é preciso apertar as teclas repetidamente.</p>
+                    <img src="img/corrida.PNG" alt="Imagem representativa do projeto de corrida" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/magouveas">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por  ANDREI SANTOS</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
